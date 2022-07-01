@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #f1f1f1;
+    color: #0f141e;
+    font-family: 'Gentium Book Plus', sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.block {
+    width: 49%;
+    display: inline-block;
+    box-sizing: border-box;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.avatar {
+    max-width: 400px;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.info-text {
+    padding: 0 20px;
+    padding-bottom: 10px;
+}
+
+.info-text p {
+    font-style: italic;
+    line-height: 18px;
+    color: #999ca0;
+}
+.info-text p strong {
+    color: black;
+}
+
+a {
+    font-style: normal;
+    color: #999ca0;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #555;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+.card {
+    background: #eafee9;
+    border-radius: 20px;
+
+    padding: 10px 30px;
+    margin-top: 10px;
+}
+
+.card-text {
+    color: #757575;
+    padding-left: 20px;
+}
+
+.card-text h3 {
+    color: #0f141e;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.btn {
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.btn:hover {
+    background: rgba(130, 100, 255, .5);
+    color: darkred;
+}
+
+.table {
+    width: 100%;
+    text-align: center;
+}
+
+.table th {
+    color: #000;
+}
+
+
+.form {
+    background: #f1f1f1;
+    border-radius: 0;
+}
+
+
+.form h3 {
+    color: #0f141e;
+    text-align: center;
+}
+
+
+label {
+   color: #757575;
+}
+
+input {
+    width: 98%;
+    border: none;
+    background: #f1f1f1;
+    border-bottom: 2px solid rgb(214, 212, 212);
+    font-family: inherit;
+}
+
+textarea {
+    width: 98%;
+    border: none;
+    background: #f1f1f1;
+    border-bottom: 2px solid rgb(214, 212, 212);
+    font-family: inherit;
+}
+
+@media (max-width: 650px) {
+    .card-text, h1, h3 {
+        text-align: center;
+    }
+
+    .list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .block {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+
+}
